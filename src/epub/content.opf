@@ -71,7 +71,7 @@
 		<dc:contributor id="transcriber-3">Greg Weeks</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Greg, Weeks</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-4">Mary Meehan &amp;amp</dc:contributor>
+		<dc:contributor id="transcriber-4">Mary Meehan &amp;</dc:contributor>
 		<meta property="file-as" refines="#transcriber-4">TRANSCRIBER_4_SORT</meta>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-5">Distributed Proofreaders Canada</dc:contributor>
