@@ -38,29 +38,32 @@
 		<dc:subject id="subject-3">Napier, Carson (Fictitious character) -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-3">LCHS</meta>
 		<meta property="term" refines="#subject-3">Unknown</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Adventure</meta>
+		<meta property="se:subject">Science Fiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">Venus</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">1</meta>
+		<dc:description id="description">A space traveler accidentally finds himself on Venus and must learn the local customs to survive.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Carson Napier is a wealthy man who builds his own rocket ship to visit the places on Mars he has heard about. But when he fails to account for the moon’s gravity when plotting his course from Earth to Mars, he is thrown wildly off course. Finding himself on Venus, he must learn the local custom and take his part in local conflicts in order to survive.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Pirates of Venus&lt;/i&gt; is the first of &lt;a href="https://standardebooks.org/ebooks/edgar-rice-burroughs"&gt;Edgar Rice Burroughs’&lt;/a&gt; &lt;a href="https://standardebooks.org/collections/venus"&gt;Venus series&lt;/a&gt; and the first book featuring the protagonist Carson Napier. The book contains elements of political satire as well, satirizing Soviet-style Communism through the Thorists. Like Burroghs’ &lt;a href="https://standardebooks.org/collections/martian"&gt;John Carter of Mars&lt;/a&gt; books, the Carson Napier books have gone on to influence science fiction writers for generations.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/70195</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/ace-f-179-edgar-rice-burroughs-pirates-of-venus-gorgon-776</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Pirates_of_Venus</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edgar-rice-burroughs_pirates-of-venus</meta>
 		<dc:creator id="author">Edgar Rice Burroughs</dc:creator>
 		<meta property="file-as" refines="#author">Burroughs, Edgar Rice</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Edgar_Rice_Burroughs</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80039681</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Georgia O’Keeffe</dc:contributor>
+		<meta property="file-as" refines="#artist">O’Keeffe, Georgia</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Georgia_O%27Keeffe</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n79148946</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Al Haines</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Al, Haines</meta>
@@ -78,9 +81,9 @@
 		<meta property="file-as" refines="#transcriber-5">Distributed Proofreaders Canada</meta>
 		<meta property="se:url.homepage" refines="#transcriber-5">https://www.pgdpcanada.net/</meta>
 		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Alexander Keane</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Keane, Alexander</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://alexanderkeane.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
