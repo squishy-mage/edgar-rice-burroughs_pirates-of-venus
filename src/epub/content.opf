@@ -51,6 +51,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/70195</dc:source>
 		<dc:source>https://archive.org/details/ace-f-179-edgar-rice-burroughs-pirates-of-venus-gorgon-776</dc:source>
+		<meta property="se:production-notes">Replace Cover with First Edition Cover from 1931 Once Public Domain</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Pirates_of_Venus</meta>
@@ -62,6 +63,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Georgia O’Keeffe</dc:contributor>
 		<meta property="file-as" refines="#artist">O’Keeffe, Georgia</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Georgia Totto O’Keeffe</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Georgia_O%27Keeffe</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79148946</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
@@ -74,8 +76,8 @@
 		<dc:contributor id="transcriber-3">Greg Weeks</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Greg, Weeks</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-4">Mary Meehan &amp;</dc:contributor>
-		<meta property="file-as" refines="#transcriber-4">TRANSCRIBER_4_SORT</meta>
+		<dc:contributor id="transcriber-4">Mary Meehan</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Meehan, Mary</meta>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-5">Distributed Proofreaders Canada</dc:contributor>
 		<meta property="file-as" refines="#transcriber-5">Distributed Proofreaders Canada</meta>
