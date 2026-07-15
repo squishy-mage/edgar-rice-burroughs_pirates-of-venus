@@ -2,7 +2,7 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 [epub|type~="z3998:salutation"] + p{
-    text-indent: 0;
+	text-indent: 0;
 }
 
 [epub|type~="z3998:signature"]{
