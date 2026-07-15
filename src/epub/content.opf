@@ -38,8 +38,8 @@
 		<dc:subject id="subject-3">Napier, Carson (Fictitious character) -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-3">LCHS</meta>
 		<meta property="term" refines="#subject-3">Unknown</meta>
-		<meta property="se:subject">Adventure</meta>
-		<meta property="se:subject">Science Fiction</meta>
+		<meta property="schema:genre">Adventure</meta>
+		<meta property="schema:genre">Science Fiction</meta>
 		<meta id="collection-1" property="belongs-to-collection">Venus</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">1</meta>
@@ -52,20 +52,20 @@
 		<dc:source>https://www.gutenberg.org/ebooks/70195</dc:source>
 		<dc:source>https://archive.org/details/ace-f-179-edgar-rice-burroughs-pirates-of-venus-gorgon-776</dc:source>
 		<meta property="se:production-notes">Replace Cover with First Edition Cover from 1931 Once Public Domain</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
+		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Pirates_of_Venus</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edgar-rice-burroughs_pirates-of-venus</meta>
 		<dc:creator id="author">Edgar Rice Burroughs</dc:creator>
 		<meta property="file-as" refines="#author">Burroughs, Edgar Rice</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Edgar_Rice_Burroughs</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80039681</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n80039681.html</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Georgia O’Keeffe</dc:contributor>
 		<meta property="file-as" refines="#artist">O’Keeffe, Georgia</meta>
 		<meta property="se:name.person.full-name" refines="#artist">Georgia Totto O’Keeffe</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Georgia_O%27Keeffe</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79148946</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n79148946.html</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Al Haines</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Al, Haines</meta>
